@@ -1,0 +1,9 @@
+.product-image{
+    border: 1px solid white;
+    padding: 0.5rem;
+    border-radius: 12px;
+}
+.product-image__url{
+    width: 5vw;
+    height: 10vh;
+}
