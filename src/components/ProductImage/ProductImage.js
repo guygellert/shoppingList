@@ -4,7 +4,10 @@ function ProductImage(props) {
 
     return (
         <div className="product-image">
-            <img className="product-image__url" alt={ props.url } src={props.url}></img>
+            <img className={props.inRow ? "product-image-in-row__url" : "product-image__url"} 
+                 alt={props.title} 
+                 src={props.url}>
+            </img>
         </div>
     );
 }

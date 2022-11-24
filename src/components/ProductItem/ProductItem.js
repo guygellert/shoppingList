@@ -9,7 +9,7 @@ function ProductItem(props) {
                 <div className="product-item__description ">{props.title}</div>
                 <div className="product-item__price">{props.price} ₪</div>
             </div>
-            <ProductImage url={props.url}></ProductImage>
+            <ProductImage url={props.url} inRow></ProductImage>
         </div>
     );
 }

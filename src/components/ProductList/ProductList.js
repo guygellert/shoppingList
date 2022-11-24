@@ -9,9 +9,9 @@ function ProductList(props) {
                 navigate(`/${item.id}`, {
                     state: {
                         title: item.title,
-                        description: item.id,
-                        // img: item.img,
-                        // stores: item.stores[]
+                        description: item.description,
+                        img: item.secondUrl,
+                        store: item.store
                     }
                 })}} >
     </ProductItem>
